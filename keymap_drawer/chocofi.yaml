@@ -1,40 +1,40 @@
 layout: {qmk_keyboard: chocofi}
 layers:
   APTMAK:
-  - V
+  - Q
   - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
+  - E
+  - R
+  - T
   - Y
-  - ''''
-  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
-  - K
-  - X
-  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
-  - {type: none}
-  - C
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
-  - D
-  - {type: none}
-  - {type: none}
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '''', h: '$$mdi:apple-keyboard-command$$'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {type: none}
-  - {type: none}
-  - {t: '$$mdi:keyboard-return$$', h: NUM}
+  - LC(A)
+  - {t: ESC, h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: NAV, s: $$dot_spc$$}
-  - {t: E, h: SYM}
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:star-three-points$$', s: '$$mdi:caps-lock$$'}
   - {type: none}
   NAV:
@@ -48,10 +48,10 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$pg_up$$
   - {type: none}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$tabler:sticker$$'}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$tabler:sticker$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$tabler:sticker$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$tabler:sticker$$'}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$tabler:sticker$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$tabler:sticker$$'}
   - {type: none}
   - {t: '$$mdi:backspace-reverse-outline$$', h: WORD}
   - $$mdi:arrow-left-bold$$
@@ -131,7 +131,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - E
+  - {type: none}
   - {type: none}
   - F1
   - F2
